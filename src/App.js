@@ -1,9 +1,10 @@
-import RootComponent from "./component/RootComponent";
+import React from "react";
+import HomeScreen from "./screens/HomeScreen";
 
 function App() {
   return (
-    <div>
-      <RootComponent />
+    <div className="App">
+      <HomeScreen />
     </div>
   );
 }
